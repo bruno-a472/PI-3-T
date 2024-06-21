@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/botstrap_modified.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Easy Park</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Easy Park</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">Sobre Nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="map.html">Mapa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="data.html">Dados</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+                  <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+    <div class="discover" id="about">
+        <h2>Um pouco sobre <span class="text-danger">Nós</span></h2>
+        <p>Nossa empresa nasceu com o propósito de transformar a experiência de estacionamento, tanto para motoristas quanto para gestores. Percebemos que a busca por uma vaga pode ser estressante e demorada, e muitas vezes leva à frustração e desistência de compras devido à má experiência. Nosso objetivo é oferecer uma solução eficiente e amigável que melhora a mobilidade urbana e a satisfação dos clientes.Desde o início, fomos movidos pela visão de um futuro onde estacionar é fácil e descomplicado. Implementamos um sistema que fornece informações em tempo real sobre a disponibilidade de vagas, permitindo que motoristas encontrem rapidamente um lugar para estacionar. Isso não apenas economiza tempo, mas também reduz o estresse associado à busca por vagas.
+          Além disso, reconhecemos a importância de uma boa gestão de estacionamento para os donos e gestores. Uma má gestão pode causar congestionamentos e insatisfação, afetando negativamente os negócios. Nossa solução oferece ferramentas para uma supervisão eficiente das vagas, melhorando o fluxo de tráfego e aumentando a satisfação dos clientes, que têm uma experiência de estacionamento mais agradável e sem complicações.
+          Estamos comprometidos em fazer uma diferença positiva nas cidades, melhorando a mobilidade urbana e a qualidade de vida. Acreditamos que um sistema de estacionamento bem gerido pode transformar a experiência dos motoristas e contribuir para o sucesso dos estabelecimentos comerciais. Nossa missão é criar uma solução robusta, segura e fácil de usar, que redefine a maneira como as pessoas estacionam e gerenciam suas vagas.</p>
+        <img src="assests/parking iot3.jpeg" alt="Food">
+    </div>
+    <div class="footer">
+        <footer>
+            © 2022 Easy Park
+        </footer>
+    </div>
+    <script src="js/nav.js"></script>
+    <script src="mqtt.js"></script>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
